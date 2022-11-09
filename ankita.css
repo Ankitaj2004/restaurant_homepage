@@ -1,0 +1,48 @@
+*
+{
+    margin : 0;
+    padding :0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+header { 
+    background-image: url("jyotsna.jpg");
+    height: 100vh;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+}
+.title h1{
+    color: rgb(245, 242, 174);
+    font-size: 70px;
+    text-align:center;
+}
+.button {
+ position:absolute;
+    top: 10%;
+    right: 30%;
+
+    transform: translate(50%,50%);
+    
+}
+.btn{
+    border: 10px solid#fff;
+    padding: 10px 30px;
+    color:#fff;
+    
+}
+.btn:hover{
+    background-color: rgb(255, 180, 119);
+    color:#000;
+}
